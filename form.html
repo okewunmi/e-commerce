@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ 
+ <title>form.html</title>
+</head>
+<body>
+ <header class="section-header-form">
+  <div class="header--box">
+   <a class="logo-link" href="index.html">
+    <div class="logo-box">
+     <p class="logo"><span class="span1">e-Trade</p>
+     <p class="logo-caption">Buyers & Sellers meet</p>
+    </div>
+   </a>
+   
+ <ul class="header--nav">
+  <a href="#" class="nav--link"> <li class="header--list"><i class="fa fa-envelope"></i></li> </a> 
+  <a href="#" class="nav--link"><li class="header--list"><i class="fa fa-user-circle-o"></i></li></a>
+  <a href="#" class="nav--link"><li class="header--list"><i class="fa fa-bell"></i></li></a>
+  <a href="#" class="nav-button"> Sell</a>
+  <!-- <button class="nav-button">sell</button> -->
+ </ul>
+  </div> 
+
+  <div class="form--container">
+   <div class="form-container-btns">
+    <a href="index.html"> &larr;Back to precious section</a>
+    <h1>Post Ads</h1>
+    <a href="#"class="btn-clear" >clear</a>
+   </div>
+   <form action="#" class="registration-form">
+    <div class="input-form-1">
+     <input type="text" class="input-form" placeholder="Title*">
+     <input type="text" class="input-form" placeholder="Location*">
+    </div>
+    <div class="select-box">
+     <select class="select-form">
+      <option selected disabled>All categories</option>
+      <option>Fashion</option>
+      <option>Electronics</option>
+      <option>Grocery</option>
+      <option>Gadget</option>
+      <option>Cosmetics</option>
+  </select>
+  <select class="select-form">
+   <option selected disabled>Condition</option>
+   <option>Brand New</option>
+   <option>Fairly Used</option>
+   <option>UK used</option>
+   <option>Imported</option>
+</select>
+    </div>
+    <textarea name="" id="" cols="120" rows="10" class="txtarea-form" placeholder="description" > </textarea>
+    <div class="input-form-1">
+     <input type="text" name="" id="" placeholder="Price*">
+     <input type="text" name="" id="" placeholder="Phone number">
+    </div>
+    
+    <div class="preview-form">
+     <div class="preview">
+     </div>
+     <input type="file" name="" id="" class="attached-form">
+    </div>
+    
+    <div class="btn-post">
+     <button class="post-button" > Post Ads </button>
+     
+    </div>
+   </form>
+  </div>
+ </header> 
+ <!-- <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+  import { getAuth, signInWithCustomToken } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDU4eD-4rR4-gMLkSE5k9oGwyaHINHIol4",
+    authDomain: "online-trading-386e5.firebaseapp.com",
+    projectId: "online-trading-386e5",
+    storageBucket: "online-trading-386e5.appspot.com",
+    messagingSenderId: "972264653809",
+    appId: "1:972264653809:web:78d4eea99a84be5bc7ba50",
+    measurementId: "${config.measurementId}"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script> -->
+<script src="app.js"></script>
+</body>
+</html>

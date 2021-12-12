@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body class="log-form">
+ <div class="log-box">
+ <h2 class="log-box-heading"> Log in to Continue</h2>
+ <form action="" onsubmit="login()" id="login-form" class="log-box-form">
+  <input type="email" id="email" class="log-box-input" required placeholder="EMAIL ADDRESS">
+  <input type="password" id="password" class="log-box-password" required placeholder="PASSWORD">
+  <button type="submit" class="login-btn">Login</button>
+ </form>
+ <!-- <p class="Log-txt"> Don't Have an Account? </p> -->
+ <p class="Log-txt"> Don't Have an Account? <a class="log-register" href="register.html">Register</a></p>
+ </div>
+ <!-- <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+ <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+  import { getAuth, signInWithCustomToken } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDU4eD-4rR4-gMLkSE5k9oGwyaHINHIol4",
+    authDomain: "online-trading-386e5.firebaseapp.com",
+    projectId: "online-trading-386e5",
+    storageBucket: "online-trading-386e5.appspot.com",
+    messagingSenderId: "972264653809",
+    appId: "1:972264653809:web:78d4eea99a84be5bc7ba50",
+    measurementId: "${config.measurementId}"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  const auth = getAuth(app);
+
+  document.getElementById('')
+</script> -->
+
+<script src="app.js"></script>
+</body>
+</html>
